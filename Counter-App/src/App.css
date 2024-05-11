@@ -1,0 +1,37 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.full{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  border: medium;
+}
+
+h1 {
+  font-size: 20em;
+}
+
+button{
+  margin: 20px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+
+p{
+  font-size: 2rem;
+  margin-left: 10vw;
+}
